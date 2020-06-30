@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>green spa</title>
+    <!--  all css link here  -->
+
+    <!-- google fonts css link -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font-awesome css link -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- icofont css link -->
+    <link rel="stylesheet" href="icofont/icofont.min.css">
+    <!-- venobox css link -->
+    <link rel="stylesheet" href="css/venobox.css">
+    <!-- slick slider css link -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- style css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- media css link -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body id="blog_detalis_page">
+  <!-- preloder start -->
+  <div class="preloader">
+    <div class="loader-classic">
+        <h4>loading.....</h4>
+    </div>
+</div>
+<!-- preloder end -->
+    <!-- Modal appointment start -->
+     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">book appointment</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="icofont-ui-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="modal-foem">
+                            <input type="text" placeholder=" your name ">
+                            <input type="number" placeholder="phone number ">
+                            <input type="email" placeholder="your Email">
+                            <input type="date">
+                            <input type="text" placeholder="your subject">
+                            <input type="text" placeholder="your time">
+                            <textarea placeholder="your message (optional)"></textarea>
+                        </div>
+                        <div class="modal-button">
+                            <div class="button">
+                                <button type="submit" class="btn-button">submit query</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal appointment end -->
+    <!-- Modal search start -->
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog search_modal" role="document">
+            <div class="modal-content search_modal_contant">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span><i class="fa fa-close"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="search_nav">
+                            <input type="search" placeholder="search">
+                            <div class="button">
+                                <button type="submit" class="btn-button"> search</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal search end -->
+    <!-- header part start -->
+    <header>
+        <!-- header top start -->
+        <section class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-12 col-sm-6">
+                        <div class="header-1">
+                            <p><i class="fa fa-clock-o"></i>Opening Hours - 09 Am to 6 PM</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12 col-sm-6">
+                        <div class="header-socil">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- header top end -->
+        <!-- navbar part start -->
+        <nav class="navbar navbar-expand-md navbar-light riday-manu">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="logo" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="service.html">service</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                page
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="about.html">about us</a>
+                                <a class="dropdown-item" href="pricing.html">pricing</a>
+                                <a class="dropdown-item" href="error.html">404 page</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                gallery
+                            </a>
+                              <div class="dropdown-menu">
+                                <a class="dropdown-item" href="gallery_2.html">galler 2 column</a>
+                                <a class="dropdown-item" href="gallery_3.html">galler 3 column</a>
+                                <a class="dropdown-item" href="gallery_4.html">galler 4 column</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                blog
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="blog_2.html">blog 2 colume</a>
+                                <a class="dropdown-item" href="blog_3.html">blog 3 colume</a>
+                                <a class="dropdown-item" href="blog_Details.html">blog details</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">contact us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" data-toggle="modal" data-target="#exampleModalLong"><i class="fa fa-search"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--  navbar part End  -->
+    </header>
+    <!-- header part end -->
+    
+    <!--   main part start  -->
+    <main>
+
+        <!-- inner page start -->
+        <section class="inner_page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="inner_head">
+                            <h4>our news detalis</h4>
+                            <h5><a href="index.html">home</a> /<span><a href="blog_2.html"> blog</a> / blog-details</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- inner page end -->
+
+    </main>
+    <!-- main part end -->
+
+    <!-- blog-detalis main start -->
+    <section class="blog_detalis">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="blog_detalis_main">
+                        <div class="blog_detalis_img">
+                            <img src="images/blog_detalis.jpg" alt="blog_detalis" class="img-fluid w-100">
+                        </div>
+                        <div class="blog_img_detalis">
+                            <ul>
+                                <li><i class="fa fa-calendar"></i>FEB 5 ,2020</li>
+                                <li><a href="#"><i class="fa fa-user "></i>by admin</a></li>
+                                <li><a href="#"><i class="fa fa-comments"></i>5 comments</a></li>
+                            </ul>
+                        </div>
+                        <div class="blog_detalis_wrp_1">
+                            <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, debitis.</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam a delectus, qui impedit in dolorum
+                                cum odit! Corporis, perspiciatis dolorem! Ad eum quo voluptas ea vero itaque, ipsam repellat
+                                dignissimos.</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro temporibus ratione voluptatum quidem?
+                                Voluptatem, officia iusto reiciendis cumque accusantium at? Vero facere accusamus illo atque, aliquid,
+                                ullam voluptatem natus, excepturi harum magnam sit soluta. Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Culpa, quod! Lorem ipsum dolor sit amet.</p>
+                            <p class="wrp_1_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nihil cum
+                                alias deserunt doloremque facilis illum reprehenderit eos, commodi tempora, eligendi error expedita ea
+                                corrupti ut molestiae ipsum maxime nesciunt! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Magni modi illum culpa ad deserunt maiores numquam aut accusantium vitae, rem sequi omnis totam
+                                reiciendis saepe harum voluptatum nulla atque ex!</p>
+                            <p class="wrp_1_content_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit ducimus quam
+                                reprehenderit ea dolore, in, asperiores accusamus quos officiis magni dignissimos quas alias esse fugit
+                                deserunt? Beatae accusamus neque molestiae impedit voluptates aliquam odit, tenetur officia provident,
+                                quam doloribus animi harum exercitationem doloremque consequatur perspiciatis libero nam, rem modi!</p>
+                        </div>
+                        <div class="blog-detaleis_tag">
+                            <div class="detalis_tag_1">
+                                <ul>
+                                    <li class="tag_P">tag :</li>
+                                    <li><a href="#">skin</a></li>
+                                    <li><a href="#">care</a></li>
+                                    <li><a href="#">stone</a></li>
+                                    <li><a href="#">oil</a></li>
+                                    <li><a href="#">clear</a></li>
+                                </ul>
+                                <ul class="detalis_share">
+                                    <li class="tag_s">share :</li>
+                                    <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- comment area start -->
+                        <div class="blog_comments">
+                            <div class="blog_comment_head">
+                                <h3>03 comments</h3>
+                            </div>
+                            <div class="comments_item">
+                                <div class="comm_item_head">
+                                    <img src="images/comment_1.jpg" alt="comment_1" class="img-fluid w-100">
+                                </div>
+                                <div class="comment_content">
+                                    <h4>Philip Josep</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quae repudiandae consequuntur
+                                        possimus ullam beatae unde dolore doloremque rem itaque.</p>
+                                    <ul>
+                                        <li>20 September 2018</li>
+                                        <li class="comment_c_r"><a href="#"><i class="fa fa-reply"></i> Reply</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="comments_item">
+                                <div class="comm_item_head">
+                                    <img src="images/comment_2.jpg" alt="comment_1" class="img-fluid w-100">
+                                </div>
+                                <div class="comment_content">
+                                    <h4>Amanda Smooth</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quae repudiandae consequuntur
+                                        possimus ullam beatae unde dolore doloremque rem itaque.</p>
+                                    <ul>
+                                        <li>20 September 2018</li>
+                                        <li class="comment_c_r"><a href="#"><i class="fa fa-reply"></i> Reply</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="comments_item">
+                                <div class="comm_item_head">
+                                    <img src="images/comment_3.jpg" alt="comment_1" class="img-fluid w-100">
+                                </div>
+                                <div class="comment_content">
+                                    <h4>Spring Local</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quae repudiandae consequuntur
+                                        possimus ullam beatae unde dolore doloremque rem itaque.</p>
+                                    <ul>
+                                        <li>20 September 2018</li>
+                                        <li class="comment_c_r"><a href="#"><i class="fa fa-reply"></i> Reply</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- reply comment start -->
+                    <div class="comment_reply">
+                        <div class="comment-head">
+                            <h4>Write a Comment</h4>
+                            <p>Your email address will not be published. Required fields are marked *</p>
+                        </div>
+                        <div class="comment-form">
+                            <form>
+                                <input type="text" placeholder="your name">
+                                <input type="email" placeholder="your email">
+                                <textarea placeholder="your comments"></textarea>
+                                <div class="button">
+                                    <button type="submit" class="btn-button">submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="detalis_wrp_2">
+                        <!-- detalis search start -->
+                        <div class="detalis_wrp_search">
+                            <h4>search</h4>
+                            <form>
+                                <input type="search" placeholder="enter keyword">
+                                <button type="submit">search</button>
+                            </form>
+                        </div>
+                        <!-- blog_detalis about me start -->
+                        <div class="blog_about_me">
+                            <div class="blog_about_head">
+                                <h5>about me</h5>
+                                <div class="blog_about_img">
+                                    <img src="images/blog_detalis_about.jpg" alt="blog_detalis_about" class="img-fluid w-100">
+                                </div>
+                            </div>
+                            <div class="blog_about_content text-center">
+                                <h6>labbono saha</h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus iure veniam sequi consequatur
+                                    vero alias quae nobis nam? Ex, rerum.</p>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- blog categories start -->
+                        <div class="blog_categaries_main">
+                            <div class="categoris_head">
+                                <h5>categories</h5>
+                            </div>
+                            <div class="categories_content">
+                                <ul>
+                                    <li><a href="#">body massage</a></li>
+                                    <li><a href="#">skin care</a></li>
+                                    <li><a href="#">herbal spa</a></li>
+                                    <li><a href="#">ston message</a></li>
+                                    <li><a href="#">aromatherapy</a></li>
+                                    <li><a href="#">hyderotherapy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- blog archive start -->
+                        <div class="blog_archive_main">
+                            <div class="archive_head">
+                                <h5>archive</h5>
+                            </div>
+                            <div class="archive_content">
+                                <ul>
+                                    <li><a href="#">may 2020</a></li>
+                                    <li><a href="#">april 2020</a></li>
+                                    <li><a href="#">march 2020</a></li>
+                                    <li><a href="#">february 2020</a></li>
+                                    <li><a href="#">january 2020</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- blog tag start -->
+                        <div class="blog_tag_main">
+                            <div class="tag_head">
+                                <h5>tag</h5>
+                            </div>
+                            <div class="tag_content">
+                                <ul>
+                                    <li><a href="#">ston</a></li>
+                                    <li><a href="#">skin care</a></li>
+                                    <li><a href="#">oil massage</a></li>
+                                    <li><a href="#">body massage</a></li>
+                                    <li><a href="#">hair selon</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog-detalis main end -->
+
+    <!-- footer part start -->
+    <footer class="footer_main">
+        <div class="container">
+            <div class="row footer_wrap">
+                <div class="col-lg-4 col-md-6 text-left">
+                    <div class="footer_1_wrp">
+                        <div class="footer_wrp_img">
+                            <img src="images/logo.png" alt="logo" class="img-fluid">
+                        </div>
+                        <div class="footer_1_wrp_content">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est repudiandae saepe minima iste amet
+                                explicabo, beatae nam necessitatibus excepturi architecto? </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 text-left">
+                    <div class="footer_2_wrp">
+                        <h3>Quick links</h3>
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our service</a></li>
+                            <li><a href="#">our gallery</a></li>
+                            <li><a href="#">contact us</a></li>
+                            <li><a href="#">page</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-left">
+                    <div class="footer_3_wrp">
+                        <h3>contact info</h3>
+                        <ul>
+                            <li><i class="fa fa-location-arrow" aria-hidden="true"></i>
+                                198 Collins St, Melbourne, NY</li>
+                            <li><i class="fa fa-phone" aria-hidden="true"></i>
+                                198-05498-65466</li>
+                            <li><i class="fa fa-envelope-open" aria-hidden="true"></i>
+                                info@example.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer_4_wrp text-left">
+                        <h3>Business hour</h3>
+                    </div>
+                    <div class="footer_4_cont">
+                        <p>Monday-Friday: <span>9am - 5pm</span></p>
+                        <p>Saturday: <span>10am - 2pm.</span></p>
+                        <p>Sunday: <span>Closed.</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutter mx-0">
+            <div class="col-lg-12">
+                <div class="footer_copy_right">
+                    <p>© 2020 green spa. All Rights Reserved. Designed By loknath100.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer part end -->
+
+    <!-- back to top start -->
+    <div class="back_to_top">
+        <a href="#"><i class="fa fa-chevron-up" aria-hidden="true"></i>
+        </a>
+    </div>
+    <!-- back to top end -->
+
+    <!-- All js link here -->
+
+    <!-- jquery library js -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- slick slider js -->
+    <script src="js/slick.min.js"></script>
+    <!-- counterup js -->
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- waypointe js -->
+    <script src="js/waypoints.min.js"></script>
+    <!-- venobox js -->
+    <script src="js/venobox.min.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

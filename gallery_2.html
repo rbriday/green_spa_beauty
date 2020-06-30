@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>green spa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--  all css link here  -->
+
+    <!-- google fonts css link -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font-awesome css link -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- icofont css link -->
+    <link rel="stylesheet" href="icofont/icofont.min.css">
+    <!-- venobox css link -->
+    <link rel="stylesheet" href="css/venobox.css">
+    <!-- slick slider css link -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- style css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- media css link -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body id="gallery_2">
+  <!-- preloder start -->
+  <div class="preloader">
+    <div class="loader-classic">
+        <h4>loading.....</h4>
+    </div>
+</div>
+<!-- preloder end -->
+    <!-- Modal appointment start -->
+     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">book appointment</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="icofont-ui-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="modal-foem">
+                            <input type="text" placeholder=" your name ">
+                            <input type="number" placeholder="phone number ">
+                            <input type="email" placeholder="your Email">
+                            <input type="date">
+                            <input type="text" placeholder="your subject">
+                            <input type="text" placeholder="your time">
+                            <textarea placeholder="your message (optional)"></textarea>
+                        </div>
+                        <div class="modal-button">
+                            <div class="button">
+                                <button type="submit" class="btn-button">submit query</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal appointment end -->
+    <!-- Modal search start -->
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog search_modal" role="document">
+            <div class="modal-content search_modal_contant">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span><i class="fa fa-close"></i></span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="search_nav">
+                            <input type="search" placeholder="search">
+                            <div class="button">
+                                <button type="submit" class="btn-button"> search</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal search end -->
+    <!-- header part start -->
+    <header>
+        <!-- header top start -->
+        <section class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-12 col-sm-6">
+                        <div class="header-1">
+                            <p><i class="fa fa-clock-o"></i>Opening Hours - 09 Am to 6 PM</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12 col-sm-6">
+                        <div class="header-socil">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- header top end -->
+        <!-- navbar part start -->
+        <nav class="navbar navbar-expand-md navbar-light riday-manu">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="logo" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="service.html">service</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                page
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="about.html">about us</a>
+                                <a class="dropdown-item" href="pricing.html">pricing</a>
+                                <a class="dropdown-item" href="error.html">404 page</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                gallery
+                            </a>
+                              <div class="dropdown-menu">
+                                <a class="dropdown-item" href="gallery_2.html">galler 2 column</a>
+                                <a class="dropdown-item" href="gallery_3.html">galler 3 column</a>
+                                <a class="dropdown-item" href="gallery_4.html">galler 4 column</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                blog
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="blog_2.html">blog 2 colume</a>
+                                <a class="dropdown-item" href="blog_3.html">blog 3 colume</a>
+                                <a class="dropdown-item" href="blog_Details.html">blog details</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">contact us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" data-toggle="modal" data-target="#exampleModalLong"><i class="fa fa-search"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--  navbar part End  -->
+    </header>
+    <!-- header part end -->
+
+    <!--   main part start  -->
+    <main>
+
+        <!-- inner page start -->
+        <section class="inner_page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="inner_head">
+                            <h4>spa gallery </h4>
+                            <h5><a href="index.html">home</a> /<span> our gallery</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- inner part end -->
+
+        <!-- gallery part start -->
+        <section class="gallery_2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="gallery_item_2">
+                            <div class="galler-item-1">
+                                <img src="images/gallery-1.jpg" alt="gallery" class="img-fluid w-100">
+                                <div class="gall_overlay">
+                                    <div class="gall-over-text text-center">
+                                        <a class="venobox" data-gall="gallery01" href="images/gallery-1.jpg">
+                                            <i class="fa fa-eye" aria-hidden="true"></i></a>
+                                        <h5>body massage</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="gallery_item_2">
+                            <div class="galler-item-1">
+                                <img src="images/gallery-2.jpg" alt="gallery" class="img-fluid w-100">
+                                <div class="gall_overlay">
+                                    <div class="gall-over-text text-center">
+                                        <a class="venobox" data-gall="gallery01" href="images/gallery-1.jpg">
+                                            <i class="fa fa-eye" aria-hidden="true"></i></a>
+                                        <h5>body massage</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="gallery_item_2">
+                            <div class="galler-item-1">
+                                <img src="images/gallery-3.jpg" alt="gallery" class="img-fluid w-100">
+                                <div class="gall_overlay">
+                                    <div class="gall-over-text text-center">
+                                        <a class="venobox" data-gall="gallery01" href="images/gallery-1.jpg">
+                                            <i class="fa fa-eye" aria-hidden="true"></i></a>
+                                        <h5>body massage</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="gallery_item_2">
+                            <div class="galler-item-1">
+                                <img src="images/gallery-4.jpg" alt="gallery" class="img-fluid w-100">
+                                <div class="gall_overlay">
+                                    <div class="gall-over-text text-center">
+                                        <a class="venobox" data-gall="gallery01" href="images/gallery-1.jpg">
+                                            <i class="fa fa-eye" aria-hidden="true"></i></a>
+                                        <h5>body massage</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="gallery_item_2">
+                            <div class="galler-item-1">
+                                <img src="images/gallery-5.jpg" alt="gallery" class="img-fluid w-100">
+                                <div class="gall_overlay">
+                                    <div class="gall-over-text text-center">
+                                        <a class="venobox" data-gall="gallery01" href="images/gallery-1.jpg">
+                                            <i class="fa fa-eye" aria-hidden="true"></i></a>
+                                        <h5>body massage</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="gallery_item_2">
+                            <div class="galler-item-1">
+                                <img src="images/gallery-6.jpg" alt="gallery" class="img-fluid w-100">
+                                <div class="gall_overlay">
+                                    <div class="gall-over-text text-center">
+                                        <a class="venobox" data-gall="gallery01" href="images/gallery-1.jpg">
+                                            <i class="fa fa-eye" aria-hidden="true"></i></a>
+                                        <h5>body massage</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="gallery_item_2">
+                            <div class="galler-item-1">
+                                <img src="images/gallery-7.jpg" alt="gallery" class="img-fluid w-100">
+                                <div class="gall_overlay">
+                                    <div class="gall-over-text text-center">
+                                        <a class="venobox" data-gall="gallery01" href="images/gallery-1.jpg">
+                                            <i class="fa fa-eye" aria-hidden="true"></i></a>
+                                        <h5>body massage</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="gallery_item_2">
+                            <div class="galler-item-1">
+                                <img src="images/gallery-8.jpg" alt="gallery" class="img-fluid w-100">
+                                <div class="gall_overlay">
+                                    <div class="gall-over-text text-center">
+                                        <a class="venobox" data-gall="gallery01" href="images/gallery-1.jpg">
+                                            <i class="fa fa-eye" aria-hidden="true"></i></a>
+                                        <h5>body massage</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- gallery part end -->
+
+        <!-- appointment part start -->
+        <section class="appointment_main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-5">
+                        <div class="appoin_img">
+                            <img src="images/appoi_img.jpg" alt="appoi_img" class="img-fluid w-100">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 text-center">
+                        <div class="appoin_content">
+                            <h4>green spa</h4>
+                            <h5>appoinment</h5>
+                            <h6>want to make a booking or gave a question?</h6>
+                            <p>Lorem ipsum dolor sit amet. coll me: <span>3322-5555-474857</span>or fill out our online booking &
+                                equiry form and well contact you.</p>
+                            <div class="button">
+                                <a href="#" class="btn-button" data-toggle="modal" data-target="#exampleModal">make an
+                                    appoinment</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- appointment part end -->
+
+    </main>
+    <!-- main part end -->
+
+    <!-- footer part start -->
+    <footer class="footer_main">
+        <div class="container">
+            <div class="row footer_wrap">
+                <div class="col-lg-4 col-md-6 text-left">
+                    <div class="footer_1_wrp">
+                        <div class="footer_wrp_img">
+                            <img src="images/logo.png" alt="logo" class="img-fluid">
+                        </div>
+                        <div class="footer_1_wrp_content">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est repudiandae saepe minima iste amet
+                                explicabo, beatae nam necessitatibus excepturi architecto? </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 text-left">
+                    <div class="footer_2_wrp">
+                        <h3>Quick links</h3>
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our service</a></li>
+                            <li><a href="#">our gallery</a></li>
+                            <li><a href="#">contact us</a></li>
+                            <li><a href="#">page</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-left">
+                    <div class="footer_3_wrp">
+                        <h3>contact info</h3>
+                        <ul>
+                            <li><i class="fa fa-location-arrow" aria-hidden="true"></i>
+                                198 Collins St, Melbourne, NY</li>
+                            <li><i class="fa fa-phone" aria-hidden="true"></i>
+                                198-05498-65466</li>
+                            <li><i class="fa fa-envelope-open" aria-hidden="true"></i>
+                                info@example.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer_4_wrp text-left">
+                        <h3>Business hour</h3>
+                    </div>
+                    <div class="footer_4_cont">
+                        <p>Monday-Friday: <span>9am - 5pm</span></p>
+                        <p>Saturday: <span>10am - 2pm.</span></p>
+                        <p>Sunday: <span>Closed.</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutter mx-0">
+            <div class="col-lg-12">
+                <div class="footer_copy_right">
+                    <p>© 2020 green spa. All Rights Reserved. Designed By loknath100.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer part end -->
+
+    <!-- back to top start -->
+    <div class="back_to_top">
+        <a href="#"><i class="fa fa-chevron-up" aria-hidden="true"></i>
+        </a>
+    </div>
+    <!-- back to top end -->
+
+    <!-- All js link here -->
+
+    <!-- jquery library js -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- slick slider js -->
+    <script src="js/slick.min.js"></script>
+    <!-- counterup js -->
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- waypointe js -->
+    <script src="js/waypoints.min.js"></script>
+    <!-- venobox js -->
+    <script src="js/venobox.min.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
